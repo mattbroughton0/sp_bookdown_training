@@ -1,0 +1,39 @@
+# Methods
+
+We describe our methods in this chapter.
+
+This file uses the binomial equation quite a bit which is given by
+
+\begin{equation}
+	f\left(k\right) = \binom{n}{k} p^k\left(1 - p\right)^{n-k}
+	(\#eq:binom)
+\end{equation}
+
+We refer to this equation as Equation \@ref(eq:binom).
+
+
+A normal paragraph.
+
+
+```{r cars, fig.cap = "An amazing plot"}
+data(mtcars)
+plot(cars)
+```
+
+Let's check a reference to Figure \@ref(fig:cars).
+
+
+```{r mtcars, fig.cap = "Another Amazing plot"}
+plot(mpg ~ hp, mtcars)
+```
+
+Now let's check a reference to Figure \@ref(fig:mtcars)
+
+Now let's check a reference to Table \@ref(tab:cartest)
+
+```{r cartest, fig.cap = "Another Amazing plot"}
+knitr::kable(mtcars, caption = "My table")
+```
+
+Now let's check a reference to Figure \@ref(fig:mtcars)
+

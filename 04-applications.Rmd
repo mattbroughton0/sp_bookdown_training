@@ -1,0 +1,8 @@
+# Applications
+
+Some _significant_ applications are demonstrated in this chapter for general 
+use.
+
+## Example one
+
+## Example two
